@@ -58,7 +58,6 @@ room, it necessarily handles:
 - **Attachments**, including their filenames and file types.
 - **Your room PIN**, or any encryption key derived from it. The server only ever receives
   a one-way fingerprint of the PIN, which cannot be reversed.
-- **Voice transmissions** on the walkie-talkie channel.
 
 This is a property of the design, not a promise about our conduct: even if our servers
 were fully compromised or we were compelled to hand over everything we have, message
@@ -94,7 +93,7 @@ there is no third party in this system.
 Each is used only for the stated purpose and only when you actively invoke it:
 
 - **Photos / Camera** — to attach images and videos you choose to send.
-- **Microphone** — to record voice messages and use the walkie-talkie channel.
+- **Microphone** — to record voice messages you choose to send.
 - **Media library** — to save an attachment you explicitly choose to keep.
 - **Face ID / Touch ID** — to unlock the app when you enable App Lock.
 - **Notifications** — local reminders only, generated on your device. We have no push
