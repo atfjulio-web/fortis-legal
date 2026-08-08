@@ -6,7 +6,7 @@ title: Fortis — Privacy Policy
 
 # Fortis Privacy Policy
 
-**Last updated:** 4 August 2026
+**Last updated:** 7 August 2026
 
 Fortis is a private, invite-only, end-to-end encrypted messaging app. This policy
 describes exactly what the app and its relay server can and cannot see. It is written
@@ -18,7 +18,8 @@ Contact for privacy questions and abuse reports: **5jx7fcydby@privaterelay.apple
 
 - We have no accounts. You never give us an email, phone number, or name.
 - Message content is end-to-end encrypted. We cannot read it, and we do not store it.
-- Nothing you say is written to a database or a disk anywhere on our servers.
+- Nothing you say is ever readable by us. What we do hold — who is currently in a
+  room, and encrypted attachments waiting to be collected — is described below.
 - When everyone leaves a room, that conversation ceases to exist entirely.
 
 ## What stays on your device
@@ -42,20 +43,28 @@ its messages and any downloaded attachments from the device.
 Our relay server passes encrypted data between people in a room. While you are in a
 room, it necessarily handles:
 
-- **Your alias and avatar** — sent in plain text so other people in the room can see who
-  is talking. Treat your alias as public to that room.
-- **Room membership and presence** — who is currently connected to a room.
+- **Your alias** — sent in plain text so other people in the room can see who is
+  talking. Treat your alias as public to that room.
+- **Room membership and presence** — who is currently connected to a room. While a room
+  is open this is held in a database so the service can survive a restart without
+  ending everyone's conversation. It is deleted when the room empties.
 - **Message timing and encrypted size** — the server knows a message passed through and
   roughly how big it was.
-- **Your IP address** — unavoidable for any internet connection; used transiently for
-  rate limiting to prevent PIN guessing. Not logged to disk or retained.
+- **Your IP address** — unavoidable for any internet connection. It is used to rate-limit
+  PIN guessing, and for that purpose only a one-way hash of it is recorded, which expires
+  automatically after 60 seconds. We do not keep a log of addresses that connected.
 - **System events** — joins, leaves, renames, and screenshot notices.
 
 ## What our server can never see
 
 - **The content of your messages.** They are encrypted on your device with a key the
   server never receives and mathematically cannot derive.
-- **Attachments**, including their filenames and file types.
+- **Attachments**, including their filenames and file types. Photos, videos, voice
+  messages and files are encrypted on your device and uploaded directly to storage as
+  ciphertext. We hold those encrypted files only long enough for the other people in the
+  room to download them, and delete them when the room ends. We have no key for them.
+- **Your profile photo**, if you set one. It is encrypted with a key derived from the
+  room's PIN — which never leaves your phone — so only people who have the PIN can see it.
 - **Your room PIN**, or any encryption key derived from it. The server only ever receives
   a one-way fingerprint of the PIN, which cannot be reversed.
 
@@ -65,11 +74,20 @@ content is not among the things we possess.
 
 ## What we retain
 
-**Nothing about your conversations.** Rooms exist only in server memory and are deleted
-the moment the last person leaves. There is no database, no message archive, and no
-backup.
+**Nothing readable, and nothing about your conversations.** There is no message archive
+and no backup. Messages are never written down at all — they are passed between the
+people in a room and discarded.
 
-The single exception is abuse enforcement. When you report someone, we record:
+Two things do exist while a room is open, and both are deleted when the last person
+leaves it:
+
+- **Who is currently in the room** — aliases and connection state, held in a database so
+  that a server restart doesn't end everyone's conversation mid-sentence.
+- **Encrypted attachments** — held only so the other people in the room can download
+  them. They are ciphertext we have no key for, and anything left behind by a crash is
+  deleted automatically within a day.
+
+The one thing we keep for longer is abuse enforcement. When you report someone, we record:
 
 - A **random device identifier** — generated on first launch, containing no personal
   information and not linked to your identity, contacts, advertising ID, or hardware.
@@ -114,7 +132,7 @@ Because we hold no account and no personal data:
 
 Fortis is not directed at children. We do not knowingly collect any information from
 children, and because we collect no personal information from anyone, we have no
-age-identifying data. Please observe the age rating shown on the App Store.
+age-identifying data. Please observe the age rating shown on the App Store or Google Play.
 
 ## Changes
 

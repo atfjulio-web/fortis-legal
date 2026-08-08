@@ -3,16 +3,16 @@
 Public documents for **Fortis**, a private, invite-only, end-to-end encrypted messaging
 app for iOS and Android.
 
-This repository contains **no application source code** — only the pages Apple requires
-to be publicly reachable. The app and server source are kept in a separate private
+This repository contains **no application source code** — only the pages Apple and Google
+require to be publicly reachable. The app and server source are kept in a separate private
 repository.
 
 ## Documents
 
 | Document | Purpose | Used for |
 |---|---|---|
-| **[Privacy Policy](privacy.md)** | Exactly what the app and its servers can and cannot see | App Store Connect → Privacy Policy URL |
-| **[Support](support.md)** | Contact details and common questions | App Store Connect → Support URL |
+| **[Privacy Policy](privacy.md)** | Exactly what the app and its servers can and cannot see | App Store Connect → Privacy Policy URL · Play Console → Privacy Policy |
+| **[Support](support.md)** | Contact details and common questions | App Store Connect → Support URL · Play Console → Support |
 
 ## About Fortis
 

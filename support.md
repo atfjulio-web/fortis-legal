@@ -7,7 +7,7 @@ title: Fortis — Support
 # Fortis Support
 
 Fortis is private, invite-only, end-to-end encrypted chat. This page is the support
-contact required for the App Store listing.
+contact required for the App Store and Google Play listings.
 
 **Contact:** 5jx7fcydby@privaterelay.appleid.com
 
