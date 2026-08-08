@@ -6,7 +6,7 @@ title: Fortis — Privacy Policy
 
 # Fortis Privacy Policy
 
-**Last updated:** 7 August 2026
+**Last updated:** 8 August 2026
 
 Fortis is a private, invite-only, end-to-end encrypted messaging app. This policy
 describes exactly what the app and its relay server can and cannot see. It is written
@@ -37,6 +37,13 @@ The following are stored locally on your phone and are never transmitted to us:
 
 **Messages are never stored on your device between sessions.** Leaving a room deletes
 its messages and any downloaded attachments from the device.
+
+**None of it is copied into a cloud backup.** Phone operating systems back app data
+up automatically unless the app opts out, and a room PIN in a backup is a room PIN
+off the phone. Fortis opts out on both platforms: on Android it is excluded from
+Google's automatic app backup, and on iOS its stored data is marked as excluded from
+iCloud and computer backups. The practical consequence is deliberate — reinstalling
+Fortis gives you a clean app, not your old settings and PINs back.
 
 ## What our server can see
 
