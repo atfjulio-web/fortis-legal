@@ -16,10 +16,13 @@ repository.
 
 ## About Fortis
 
-Fortis is private, invite-only, end-to-end encrypted chat. There are no accounts. Rooms
-are reachable only by a 6-character PIN shared directly between people — there is no
-public directory and no stranger-matching. Messages are encrypted on-device and are
-never stored; when everyone leaves a room, the conversation is gone permanently.
+Fortis is private, invite-only, end-to-end encrypted chat. No account is required —
+rooms are reachable only by a 6-character PIN shared directly between people, with no
+public directory and no stranger-matching. A username may optionally be registered so
+that someone can be invited to a one-to-one conversation they have to accept; it is the
+only thing about a person that persists, and it can be released from inside the app.
+Messages are encrypted on-device and are never stored; when everyone leaves a room, the
+conversation is gone permanently.
 
 Because message content is end-to-end encrypted, our servers cannot read it. Moderation
 therefore works on reports and metadata rather than on content — see the
