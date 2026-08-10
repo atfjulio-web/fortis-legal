@@ -106,6 +106,21 @@ leaves it:
 - **Encrypted attachments** — held only so the other people in the room can download
   them. They are ciphertext we have no key for, and anything left behind by a crash is
   deleted automatically within a day.
+- **A sealed hand-off of the conversation, briefly** — there are two moments when one
+  member's phone passes the conversation to another's, and it travels as one encrypted
+  bundle we hold just long enough for the other phone to fetch it. It is ciphertext we
+  have no key for, and it is deleted with the room like everything else.
+
+  The first is when **someone new joins**. Everyone already in the room is asked, and
+  **each person answers only for their own messages** — if three of five agree, the new
+  arrival receives those three people's messages and not the other two's. Nobody can
+  agree on your behalf.
+
+  The second is when **you come back** after your own phone was asleep or the app was
+  minimised. Nobody is asked, because nothing new is being shared: you are given only
+  what was said while you already held your place in the room — messages that would
+  have arrived on your screen had your phone been awake. It cannot reach back past the
+  moment you joined.
 
 The one thing we keep for longer is abuse enforcement. When you report someone, we record:
 
