@@ -1,14 +1,14 @@
 ---
-title: Fortis — Privacy Policy
+title: Fortis IM — Privacy Policy
 ---
 
 [← Legal & Support index](README.md) · [Support](support.md)
 
-# Fortis Privacy Policy
+# Fortis IM Privacy Policy
 
 **Last updated:** 9 August 2026
 
-Fortis is a private, invite-only, end-to-end encrypted messaging app. This policy
+Fortis IM is a private, invite-only, end-to-end encrypted messaging app. This policy
 describes exactly what the app and its relay server can and cannot see. It is written
 to match what the code actually does — not a generic template.
 
@@ -53,10 +53,10 @@ its messages and any downloaded attachments from the device.
 
 **None of it is copied into a cloud backup.** Phone operating systems back app data
 up automatically unless the app opts out, and a room PIN in a backup is a room PIN
-off the phone. Fortis opts out on both platforms: on Android it is excluded from
+off the phone. Fortis IM opts out on both platforms: on Android it is excluded from
 Google's automatic app backup, and on iOS its stored data is marked as excluded from
 iCloud and computer backups. The practical consequence is deliberate — reinstalling
-Fortis gives you a clean app, not your old settings and PINs back.
+Fortis IM gives you a clean app, not your old settings and PINs back.
 
 ## What our server can see
 
@@ -197,7 +197,7 @@ Each is used only for the stated purpose and only when you actively invoke it:
 
 Turning notifications on lets us wake your phone when someone invites you to a
 conversation, or when there is a new message in a room you have stepped away from.
-This is the **only** part of Fortis that involves anyone outside it, so it is worth
+This is the **only** part of Fortis IM that involves anyone outside it, so it is worth
 being exact about.
 
 **What a notification contains: nothing.** Every push we send is one of two fixed
@@ -210,7 +210,7 @@ companies and displayed on a locked screen. Open the app to find out who and wha
 **What leaves our system.** To reach a closed app we must hand a *push token* — an
 opaque address for your device, issued by Apple — to Expo's push service, which
 passes it to Apple's Push Notification service. Those two companies therefore learn
-that a Fortis notification was sent to your device, and when. They learn nothing
+that a Fortis IM notification was sent to your device, and when. They learn nothing
 about who it was from or what it concerned, because we do not tell them.
 
 **What we store.** Your push token, on your username's record, for as long as
@@ -240,7 +240,7 @@ Because we hold no personal data — and, unless you registered a username, no a
 
 ## Children
 
-Fortis is not directed at children. We do not knowingly collect any information from
+Fortis IM is not directed at children. We do not knowingly collect any information from
 children, and because we collect no personal information from anyone — a username is
 chosen, not identifying — we have no age-identifying data. Please observe the age rating
 shown on the App Store or Google Play.

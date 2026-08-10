@@ -1,6 +1,6 @@
-# Fortis — Legal & Support
+# Fortis IM — Legal & Support
 
-Public documents for **Fortis**, a private, invite-only, end-to-end encrypted messaging
+Public documents for **Fortis IM**, a private, invite-only, end-to-end encrypted messaging
 app for iOS and Android.
 
 This repository contains **no application source code** — only the pages Apple and Google
@@ -14,9 +14,9 @@ repository.
 | **[Privacy Policy](privacy.md)** | Exactly what the app and its servers can and cannot see | App Store Connect → Privacy Policy URL · Play Console → Privacy Policy |
 | **[Support](support.md)** | Contact details and common questions | App Store Connect → Support URL · Play Console → Support |
 
-## About Fortis
+## About Fortis IM
 
-Fortis is private, invite-only, end-to-end encrypted chat. No account is required —
+Fortis IM is private, invite-only, end-to-end encrypted chat. No account is required —
 rooms are reachable only by a 6-character PIN shared directly between people, with no
 public directory and no stranger-matching. A username may optionally be registered so
 that someone can be invited to a one-to-one conversation they have to accept; it is the

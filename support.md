@@ -1,12 +1,12 @@
 ---
-title: Fortis — Support
+title: Fortis IM — Support
 ---
 
 [← Legal & Support index](README.md) · [Privacy Policy](privacy.md)
 
-# Fortis Support
+# Fortis IM Support
 
-Fortis is private, invite-only, end-to-end encrypted chat. This page is the support
+Fortis IM is private, invite-only, end-to-end encrypted chat. This page is the support
 contact required for the App Store and Google Play listings.
 
 **Contact:** 5jx7fcydby@privaterelay.appleid.com
@@ -16,7 +16,7 @@ We aim to respond within a few business days. Abuse reports are prioritised.
 ## Common questions
 
 **I've lost a conversation.**
-This is expected. Fortis stores no message history anywhere — not on our servers, not on
+This is expected. Fortis IM stores no message history anywhere — not on our servers, not on
 your device between sessions. When everyone leaves a room, the conversation is gone
 permanently. There is no recovery, by design.
 
