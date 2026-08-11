@@ -131,6 +131,13 @@ The one thing we keep for longer is abuse enforcement. When you report someone, 
   content**, because we do not have it, and never the room involved. Retained so a human
   can review reports; older entries are discarded automatically.
 
+  **A report is also emailed to us**, to the abuse address published on this page and
+  shown in the app, so that reports are seen when they arrive rather than whenever
+  somebody next looks at a database. The email carries those same fields and nothing
+  else — no message content, and not the room. It travels through Amazon's notification
+  service and ordinary email, so, like a push notification, it leaves our system; unlike
+  a push notification it is addressed to us rather than to you.
+
 If enough different people report the same device, that device is blocked from creating
 or joining rooms. These records contain no message data and cannot be used to reconstruct
 a conversation. Reinstalling the app generates a new device identifier.
@@ -205,8 +212,9 @@ Each is used only for the stated purpose and only when you actively invoke it:
 
 Turning notifications on lets us wake your phone when someone invites you to a
 conversation, or when there is a new message in a room you have stepped away from.
-This is the **only** part of Fortis IM that involves anyone outside it, so it is worth
-being exact about.
+Along with the abuse-report email described under "What we retain", this is one of
+only two parts of Fortis IM that involve anyone outside it, so it is worth being exact
+about.
 
 **What a notification contains: nothing.** Every push we send is one of two fixed
 sentences — "Someone wants to chat." or "New message." There is no sender, no
