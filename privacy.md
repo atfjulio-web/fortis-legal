@@ -6,7 +6,7 @@ title: Fortis IM — Privacy Policy
 
 # Fortis IM Privacy Policy
 
-**Last updated:** 9 August 2026
+**Last updated:** 10 August 2026
 
 Fortis IM is a private, invite-only, end-to-end encrypted messaging app. This policy
 describes exactly what the app and its relay server can and cannot see. It is written
@@ -134,6 +134,14 @@ The one thing we keep for longer is abuse enforcement. When you report someone, 
 If enough different people report the same device, that device is blocked from creating
 or joining rooms. These records contain no message data and cannot be used to reconstruct
 a conversation. Reinstalling the app generates a new device identifier.
+
+**Short-lived server logs.** Our relay writes operational logs so that faults can be
+found, and they are deleted after seven days. They record events rather than content: an
+error, a report being filed, or whether a notification we tried to send was accepted or
+refused. A notification entry includes the last few characters of the push address it
+concerned — not enough to send anything to your device, and there so that two phones can
+be told apart while reading a log. No message text, no attachment, no room, and no full
+push address appears in any of it.
 
 ## Usernames
 
